@@ -225,6 +225,9 @@
   .gap-\[10px\] {
     gap: 10px;
   }
+  .gap-\[15px\] {
+    gap: 15px;
+  }
   .gap-\[20px\] {
     gap: 20px;
   }
@@ -312,6 +315,9 @@
   .text-\[16\] {
     color: 16;
   }
+  .text-\[gray\] {
+    color: gray;
+  }
   .text-\[white\] {
     color: white;
   }
@@ -375,6 +381,16 @@
   .lg\:p-\[100px_0px\] {
     @media (width >= 64rem) {
       padding: 100px 0px;
+    }
+  }
+  .lg\:text-\[12px\] {
+    @media (width >= 64rem) {
+      font-size: 12px;
+    }
+  }
+  .lg\:text-\[14px\] {
+    @media (width >= 64rem) {
+      font-size: 14px;
     }
   }
   .lg\:text-\[50px\] {
